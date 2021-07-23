@@ -3,7 +3,7 @@
 a=1
 punti=0
 while a==1:
-    parola=input("Inserisci una parola che contenga la parola 'cese': ")
+    parola=input("Inserisci una parola che contenga la parola 'gli': ")
     parola=parola.lower()
     if "gli" in parola:
         punti=punti+1
