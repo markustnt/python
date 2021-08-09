@@ -11,7 +11,7 @@ while i==1:
         i=0
         break
     else:
-        parola=input("Pianeti del sistema solare:")
+        parola=input("Pianeti del sistema solare:").lower()
         if parola in lista:
             print(parola)
             lista.remove(parola)
