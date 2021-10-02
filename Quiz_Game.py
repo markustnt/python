@@ -3,21 +3,21 @@
 print("Quiz Game")
 
 
-lista=['mercurio','venere','terra','marte','giove','saturno','urano','nettuno','plutone']
-lista1=['mercurio','venere','terra','marte','giove','saturno','urano','nettuno','plutone']
+lista=['mercury','venus','earth','mars','jupiter','saturn','uranus','neptune','pluto']
+lista1=['mercury','venus','earth','mars','jupiter','saturn','uranus','neptune','pluto']
 i=1
 while i==1:
     if len(lista)==0:
         i=0
         break
     else:
-        parola=input("Pianeti del sistema solare:").lower()
-        if parola in lista:
-            print(parola)
-            lista.remove(parola)
-        elif parola in lista1:
-            print('già inserito')
+        word=input("Planets of the solar system:").lower()
+        if word in lista:
+            print(word)
+            lista.remove(word)
+        elif word in lista1:
+            print('already inserted')
         else:
-            print('errato')
+            print('incorrect')
 
-print('HAI INDOVINATO TUTTE LE PAROLE!!')
+print('CONGRATULATION, YOU GUESSED ALL THE PLANETS!!')
